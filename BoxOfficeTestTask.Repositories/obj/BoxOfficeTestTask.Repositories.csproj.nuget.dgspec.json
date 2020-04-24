@@ -1,0 +1,205 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\akoni\\source\\repos\\BoxOfficeTestTask\\BoxOfficeTestTask.Repositories\\BoxOfficeTestTask.Repositories.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\akoni\\source\\repos\\BoxOfficeTestTask\\BoxOfficeTestTask.Models\\BoxOfficeTestTask.Models.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\akoni\\source\\repos\\BoxOfficeTestTask\\BoxOfficeTestTask.Models\\BoxOfficeTestTask.Models.csproj",
+        "projectName": "BoxOfficeTestTask.Models",
+        "projectPath": "C:\\Users\\akoni\\source\\repos\\BoxOfficeTestTask\\BoxOfficeTestTask.Models\\BoxOfficeTestTask.Models.csproj",
+        "packagesPath": "C:\\Users\\akoni\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\akoni\\source\\repos\\BoxOfficeTestTask\\BoxOfficeTestTask.Models\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\akoni\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\akoni\\source\\repos\\BoxOfficeTestTask\\BoxOfficeTestTask.Repositories.EntityFramework\\BoxOfficeTestTask.Repositories.EntityFramework.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\akoni\\source\\repos\\BoxOfficeTestTask\\BoxOfficeTestTask.Repositories.EntityFramework\\BoxOfficeTestTask.Repositories.EntityFramework.csproj",
+        "projectName": "BoxOfficeTestTask.Repositories.EntityFramework",
+        "projectPath": "C:\\Users\\akoni\\source\\repos\\BoxOfficeTestTask\\BoxOfficeTestTask.Repositories.EntityFramework\\BoxOfficeTestTask.Repositories.EntityFramework.csproj",
+        "packagesPath": "C:\\Users\\akoni\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\akoni\\source\\repos\\BoxOfficeTestTask\\BoxOfficeTestTask.Repositories.EntityFramework\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\akoni\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\akoni\\source\\repos\\BoxOfficeTestTask\\BoxOfficeTestTask.Models\\BoxOfficeTestTask.Models.csproj": {
+                "projectPath": "C:\\Users\\akoni\\source\\repos\\BoxOfficeTestTask\\BoxOfficeTestTask.Models\\BoxOfficeTestTask.Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[3.1.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\akoni\\source\\repos\\BoxOfficeTestTask\\BoxOfficeTestTask.Repositories\\BoxOfficeTestTask.Repositories.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\akoni\\source\\repos\\BoxOfficeTestTask\\BoxOfficeTestTask.Repositories\\BoxOfficeTestTask.Repositories.csproj",
+        "projectName": "BoxOfficeTestTask.Repositories",
+        "projectPath": "C:\\Users\\akoni\\source\\repos\\BoxOfficeTestTask\\BoxOfficeTestTask.Repositories\\BoxOfficeTestTask.Repositories.csproj",
+        "packagesPath": "C:\\Users\\akoni\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\akoni\\source\\repos\\BoxOfficeTestTask\\BoxOfficeTestTask.Repositories\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\akoni\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\akoni\\source\\repos\\BoxOfficeTestTask\\BoxOfficeTestTask.Models\\BoxOfficeTestTask.Models.csproj": {
+                "projectPath": "C:\\Users\\akoni\\source\\repos\\BoxOfficeTestTask\\BoxOfficeTestTask.Models\\BoxOfficeTestTask.Models.csproj"
+              },
+              "C:\\Users\\akoni\\source\\repos\\BoxOfficeTestTask\\BoxOfficeTestTask.Repositories.EntityFramework\\BoxOfficeTestTask.Repositories.EntityFramework.csproj": {
+                "projectPath": "C:\\Users\\akoni\\source\\repos\\BoxOfficeTestTask\\BoxOfficeTestTask.Repositories.EntityFramework\\BoxOfficeTestTask.Repositories.EntityFramework.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.3, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
